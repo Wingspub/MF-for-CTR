@@ -1,0 +1,7 @@
+[project]
+name = "mf-for-ctr"
+version = "0.1.0"
+description = "mf for ctr task research"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
