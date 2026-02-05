@@ -33,7 +33,7 @@ $$\mathcal{L}=\text{CE}(r_{ui}, \hat{r}_{ui})+\lambda(||\vec{e}_u||_2^2+||\vec{e
 
 交叉熵(CE):
 
-$$ \text{CE} = \frac{1}{N} \sum $$
+$$ \text{CE} = \frac{1}{N} \sum r_{ui} \ln(\hat{r}_{ui}) + (1-r_{ui})\ln(1-\hat{r}_{ui}), $$
 
 点击预测准确率(ACC):
 
