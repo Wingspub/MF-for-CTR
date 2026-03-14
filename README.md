@@ -25,7 +25,7 @@ $$ \hat{r}_{ui} = \sigma(\vec{e}_u + \vec{e}_i + \vec{b}_u + \vec{b}_i + b),$$
 
 损失函数：
 
-$$\mathcal{L}=\text{CE}(r_{ui}, \hat{r}_{ui})+\lambda(||\vec{e}_u||_2^2+||\vec{e}_i||_2^2+||\vec{b}_u||_2^2+||\vec{b}_i||_2^2).$$
+$$\mathcal{L}=\text{CE}(r_{ui}, \hat{r}_{ui})+\lambda(\\|\vec{e}_u \\|_2^2+\\|\vec{e}_i\\|_2^2+\\|\vec{b}_u\\|_2^2+\\|\vec{b}_i\\|_2^2).$$
 
 ### 评估函数
 
@@ -37,4 +37,4 @@ $$ \text{CE} = \frac{1}{N} \sum r_{ui} \ln(\hat{r}_{ui}) + (1-r_{ui})\ln(1-\hat{
 
 点击预测准确率(ACC):
 
-$$\text{ACC} = \frac{1}{N} \sum \mathbb{I}(|r_{ui} - \hat{r}_{ui}|<0.5).$$
+$$\text{ACC} = \frac{1}{N} \sum \mathbb{I}(\|r_{ui} - \hat{r}_{ui}\|<0.5).$$
